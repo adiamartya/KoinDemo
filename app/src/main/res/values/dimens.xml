@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewSmallPadding">4dp</dimen>
+    <dimen name="viewRegularMargin">8dp</dimen>
+    <dimen name="viewLargeMargin">16dp</dimen>
+    <dimen name="viewRegularPadding">8dp</dimen>
+    <dimen name="viewLargePadding">16dp</dimen>
+</resources>

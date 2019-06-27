@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Koin Demo</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="view">VIEW</string>
+    <string name="add">ADD</string>
+</resources>
