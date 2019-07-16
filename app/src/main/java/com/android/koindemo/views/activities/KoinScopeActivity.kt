@@ -36,7 +36,7 @@ class KoinScopeActivity : AppCompatActivity(), Observer<List<User>> {
         viewModel.getUsers()
             .observe(this, this) //--------> viewmodel in custom scope
 
-        scope.close() //----------> close scope when no more in use. If you are using custom scope then it will be closed automatically when activity is destroyed
+        scope.close() //----------> close scope when no more in use. If you are using activity scope then it will be closed automatically when activity is destroyed
     }
 
     override fun onChanged(users: List<User>?) {

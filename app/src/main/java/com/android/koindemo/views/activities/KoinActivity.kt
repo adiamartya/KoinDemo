@@ -9,6 +9,7 @@ import com.android.koindemo.R
 import com.android.koindemo.databinding.ActivityKoinBinding
 import com.android.koindemo.models.local.User
 import com.android.koindemo.viewmodels.KoinViewModel
+import org.koin.androidx.viewmodel.ext.android.getViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class KoinActivity : AppCompatActivity() {
